@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PGKBA</string>
+    <string name="user_name">User</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hello_user">Hello ini user</string>
+
+    <string name="home">Grafik Penerimaan Tebu</string>
+    <string name="pemasukan_per_jam"><b><u>Laporan Rekap Penerimaan</u></b></string>
+</resources>

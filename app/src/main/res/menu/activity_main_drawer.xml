@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_account"
+            android:title="User" />
+        <item
+            android:id="@+id/nav_truck"
+            android:icon="@drawable/ic_truck"
+            android:title="Detaksasi" />
+        <item
+            android:id="@+id/nav_accept"
+            android:icon="@drawable/ic_accept"
+            android:title="Penerimaan" />
+        <item
+            android:id="@+id/nav_pantau"
+            android:icon="@drawable/ic_eye"
+            android:title="Pos Pantau" />
+    </group>
+
+    <item android:title="LAPORAN">
+        <menu>
+            <item
+                android:id="@+id/nav_report1"
+                android:icon="@drawable/ic_report"
+                android:title="Rekap Pemasukan Tebu" />
+            <item
+                android:id="@+id/nav_report2"
+                android:icon="@drawable/ic_report"
+                android:title="Daftar Pemasukan Tebu" />
+            <item
+                android:id="@+id/nav_report3"
+                android:icon="@drawable/ic_report"
+                android:title="Pemasukan Tebu per KUD" />
+            <item
+                android:id="@+id/nav_report4"
+                android:icon="@drawable/ic_report"
+                android:title="Pemasukan Tebu per Register" />
+            <item
+                android:id="@+id/nav_report5"
+                android:icon="@drawable/ic_report"
+                android:title="Rekap Pemasukan Tebu per Register" />
+            <item
+                android:id="@+id/nav_report6"
+                android:icon="@drawable/ic_report"
+                android:title="Pemasukan dan Sisa Tebu" />
+            <item
+                android:id="@+id/nav_report7"
+                android:icon="@drawable/ic_report"
+                android:title="Timbangan per Jam" />
+            <item
+                android:id="@+id/nav_report8"
+                android:icon="@drawable/ic_report"
+                android:title="Rekap Timbangan per Jam" />
+            <item
+                android:id="@+id/nav_report9"
+                android:icon="@drawable/ic_report"
+                android:title="Pemasukan per Jam" />
+            <item
+                android:id="@+id/nav_report10"
+                android:icon="@drawable/ic_report"
+                android:title="Rekap Penerimaan per Tanggal" />
+            <item
+                android:id="@+id/nav_report11"
+                android:icon="@drawable/ic_report"
+                android:title="Rekap Giling per Tanggal" />
+            <item
+                android:id="@+id/nav_report12"
+                android:icon="@drawable/ic_report"
+                android:title="Laporan Tebu Petugas" />
+        </menu>
+    </item>
+
+    <item android:title="DISPLAY">
+        <menu>
+            <item
+                android:id="@+id/nav_display1"
+                android:icon="@drawable/ic_display"
+                android:title="Rekap Giling per Jam" />
+            <item
+                android:id="@+id/nav_display2"
+                android:icon="@drawable/ic_display"
+                android:title="Rekap Penerimaan" />
+            <item
+                android:id="@+id/nav_display3"
+                android:icon="@drawable/ic_display"
+                android:title="Panel Kinerja Giling" />
+        </menu>
+    </item>
+    <item android:title="OTHER">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="Tentang"
+                android:icon="@drawable/ic_exit"/>
+            <item
+                android:id="@+id/nav_exit"
+                android:title="Keluar"
+                android:icon="@drawable/ic_exit"/>
+        </menu>
+    </item>
+</menu>
