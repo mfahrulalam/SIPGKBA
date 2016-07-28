@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/20673609/implement-a-datepicker-inside-a-fragment
